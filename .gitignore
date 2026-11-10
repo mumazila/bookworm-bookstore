@@ -1,0 +1,33 @@
+node_modules
+dist
+.env
+.env.local
+.next
+
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Next.js
+.next/
+**/.next/
+out/
+
+# Build files
+dist/
+**/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local files
+.DS_Store
+Thumbs.db
